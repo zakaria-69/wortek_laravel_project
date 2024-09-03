@@ -1,0 +1,59 @@
+hr{
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+    border: 2px solid #C2356B;
+}
+.officeCard-title-description img{
+    border-radius: 12px;
+}
+
+.commoditees_container{
+/* border: solid green 2px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.commoditees_container ul{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/* @counter-style checked{
+    system: fixed;
+    symbols: "✔";
+    suffix: " ";
+} */
+.commoditees_list::marker{
+    content: "✔";
+    margin-left: 2px;
+    color: #C2356B;
+}
+
+/* .commoditees_list{
+    
+} */
+
+.commoditees_container h5{
+    color: #C2356B;
+    font-size: 2rem;
+    font-style: italic;
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+    text-decoration: underline double 2px #C2356B;
+}
+
+.commoditees_list{
+    /* border: solid blue 2px; */
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* color: #C2356B; */
+    list-style-type: checked;
+    /* list-style-position: inside; */
+}
+
+.commoditees{
+    margin-left: 5px;
+}
+

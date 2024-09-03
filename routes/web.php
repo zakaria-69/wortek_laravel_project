@@ -51,6 +51,9 @@ Route::post('/login', [ClientController::class, 'create'])->name('clients.create
  //Route::post('/login_auth/login', [AuthController::class, 'login'])->name('auth.login');
  Route::post('/login/authentification', [AuthController::class, 'register'])->name('register');
 
+ //Routes locaux a louer description
+ Route::get('/bureau-individuel-hiver-calme', function() {return view('/pages/offices/individualOfficeCalmWinter');})->name('bureau.individuel.hiver.calme');
+
 
 
 

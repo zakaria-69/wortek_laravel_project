@@ -31,7 +31,7 @@
             <h2>Réseaux sociaux</h2>
             <li>
                 <i></i>
-                <a href="">linkedin</a>
+                <a href="https://www.linkedin.com/in/zakaria-ladjrafi/" target="_blank">linkedin</a>
             </li>
             <li>
                 <i></i>

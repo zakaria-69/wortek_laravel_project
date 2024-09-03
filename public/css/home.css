@@ -21,7 +21,7 @@ table{
     margin: 30px auto;
 }
 
-h5{
+.officeCard-title-description h5{
     color : #C2356B;
     font-size: 2rem;
     font-style: italic;
