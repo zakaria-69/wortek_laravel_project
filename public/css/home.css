@@ -1,0 +1,148 @@
+body{
+    border: solid red 3px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #C2356B;
+    text-decoration: underline double 2px #C2356B;
+}
+
+th{
+    padding: 5px;
+}
+td{
+    padding: 10px;
+}
+
+table{
+    margin: 30px auto;
+}
+
+h5{
+    color : #C2356B;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom:0.5rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(30%) sepia(83%) saturate(3720%) hue-rotate(300deg) brightness(95%) contrast(104%);
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon, .carousel-control-next:hover .carousel-control-next-icon {
+    filter: invert(93%) sepia(6%) saturate(0%) hue-rotate(320deg) brightness(110%) contrast(101%);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index:1;
+    width: 15%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    padding:0;
+    color: #fff;
+    text-align:center;  
+    max-height: none;
+    min-height: none;
+}
+
+
+.carousel-indicators [data-bs-target]{
+   background-color: #C2356B;
+}
+
+#carouselIndicators{
+    background-color: #C2356B;  
+}
+::marker{
+    content: "";
+}
+
+.officeCard-img-container{
+    position: relative;
+    text-align: center;
+}
+
+.officeCard-img-container img{
+    margin: 0 auto;
+    max-height: 30rem;
+    min-height: 30rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border: double #C2356B 3px;
+    border-radius: 25px;
+    transition: filter 0.3s ease;
+}
+
+.officeCard-img-container img:hover{
+    cursor:pointer;
+    filter: blur(5px);
+}
+
+.officeCard-img-container img:hover + #voir-plus {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+#voir-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+    pointer-events: none;
+}
+
+
+#voir-plus:hover{
+    background-color: transparent;
+    color: transparent;
+}
+.officeCard-img-container a{
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.officeCard-img-container:hover{
+    color: transparent;
+    background-color: transparent;
+}
+.branding-name{
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.officeCard-title-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.officeCard-title-description p{
+   width: 50%;
+   color: #C2356B;
+   margin-bottom: 2rem;
+}
+
+.keywords{
+    font-weight: 700;
+}
