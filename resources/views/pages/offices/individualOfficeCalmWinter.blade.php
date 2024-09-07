@@ -59,6 +59,7 @@
         </ul>
     </div> 
     <hr>
+    @include('partials.calendar')
     @include("partials.footer");
 </body>
 

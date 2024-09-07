@@ -10,7 +10,7 @@
 </head>
 <body>
 @include('partials.header')
-    <h1>Page Reservation</h1>
+    <!-- @include('partials.calendar') -->
     @include('partials.footer')
 </body>
 </html>
